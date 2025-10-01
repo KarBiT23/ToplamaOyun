@@ -43,7 +43,7 @@ public class DCoins : MonoBehaviour
         if (winPanel != null) winPanel.SetActive(false);
         if (losePanel != null) losePanel.SetActive(false);
 
-        Time.timeScale = 1; // Sahne yeniden başladığında oyun devam etsin
+        Time.timeScale = 1;
     }
 
     void Update()
